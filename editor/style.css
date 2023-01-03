@@ -1,0 +1,11 @@
+.border {
+    border: 1px solid black !important;
+}
+
+.d-none {
+    display: none !important;
+}
+
+.h-100px {
+    height: 100px !important;
+}

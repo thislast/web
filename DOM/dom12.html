@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="dom.css">
+    <script src="/addListener/dom.js"></script>
+</head>
+<body>
+
+    <section id="s7">
+        <h1>7.스타일 다루기(classList) : 아코디언</h1>
+        <div class="box-s7">
+            <h3 class="accordion-header">제목1</h3>
+            <div class="accordion-content">
+                <p>
+                    Hű tátogjatok dobál hagyottan másról laktok. Nő rázza lágy egyedül fáj egyedül fájdalmam el kivül e. Kínt s helyem tenni.
+                </p>
+            </div>
+
+            <h3 class="accordion-header">제목2</h3>
+            <div class="accordion-content">
+                <p>
+                    Censer implore lent yore my above and, have desert sat oh name. Oer chamber the me sorrow ghost name it.
+                </p>
+            </div>
+
+            <h3 class="accordion-header">제목3</h3>
+            <div class="accordion-content">
+                <p>
+                    J'ai vu acteurs vu mufle m'ont, douce le sous vigueur pleins  pussent les lunules, forcer heurté violettes je yeux,.
+                </p>
+            </div>
+
+            <h3 class="accordion-header">제목4</h3>
+            <div class="accordion-content">
+                <p>
+                    La baile arroyo el los donde desnudo. Las árboles huye por acaba bajo húmedo se que sus, a las vuelve.
+                </p>
+            </div>
+
+            <h3 class="accordion-header">제목5</h3>
+            <div class="accordion-content">
+                <p>
+                    Ancora di giudicio le sogiacere dea nostri fu medesimi, quali e cosí piaceri tutte che, nel fosse fu nome e.
+                </p>
+            </div>
+
+    </section>
+
+
+    <section id="s6">
+        <hr>
+        <h1>6. 스타일 다루기(className) : 아이템 이동하기</h1>
+        <div class="box-s6">
+            <ul>
+                <li class="card-1th">1</li>
+                <li class="card-2th">2</li>
+                <li class="card-3th">3</li>
+            </ul>
+            <div class="btn-list">
+                <a class="btn-prev"href="">이전</a>
+                <a class="btn-next"href="">다음</a>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="s5">
+        <hr>
+        <h1>5.스타일 다루기 : 값 입력과 동적으로 박스 스타일 변경</h1>
+        <div class="boxS5">
+            <div class="tool-boxS5">
+                <div>
+                    <label for="">style : solid</label>
+                    <select class="style-input-s5">
+                        <option value="solid">solid</option>
+                        <option value="dashed">dashed</option>
+                        <option value="dotted">dotted</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label for="">width : 0px</label>
+                    <input class="width-input-s5" type="range" min="0" max="100" value="1">
+                </div>
+                <div>
+                    <label for="">radius : 0px</label>
+                    <input class="radius-input-s5" type="range" min="0" max="100" value="1">
+                </div>
+                <div>
+                    <label for="">color : #000000</label>
+                    <input class="color-input-s5" type="color" value="#000000">
+                </div>
+                <div>
+                    <div>output:</div>
+                    <div class="output-s5"></div>
+                </div>
+            </div>
+            <div class="preview-boxS5">
+                <div class="item-s5"></div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+<section id="s4">
+    <hr>
+    <h1>4. 이벤트 객체 : 그리드를 이용한 개선된 계산기</h1>
+    <form action="">
+        <div class="box">
+            <input type="text" value="0" dir="rtl">
+            <input class="num" type="submit" value="%">
+            <input class="num" type="submit" value="CE">
+            <input class="num" type="submit" value="C">
+            <input class="num" type="submit" value="/">
+            
+            <input class="num" type="submit" value="7">
+            <input class="num" type="submit" value="8">
+            <input class="num" type="submit" value="9">
+            <input class="num" type="submit" value="X">
+            
+            <input class="num" type="submit" value="4">
+            <input class="num" type="submit" value="5">
+            <input class="num" type="submit" value="6">
+            <input class="num" type="submit" value="-">
+            
+            <input class="num" type="submit" value="1">
+            <input class="num" type="submit" value="2">
+            <input class="num" type="submit" value="3">
+            <input class="num" type="submit" value="+">
+            
+            <input class="num" type="submit" value="+/-">
+            <input class="num" type="submit" value="0">
+            <input class="num" type="submit" value=".">
+            <input class="num" type="submit" value="=">
+        </div>
+    </form>
+</section>
+
+<section id="s3">
+    <hr>
+    <h1>3. 이벤트 객체 : 개선된 계산기</h1>
+    <div>
+        <input type="text" value="0" dir="rtl">
+        <input class="num" type="button" value="1">
+        <input class="num" type="button" value="2">
+        <input class="num" type="button" value="3">
+        <input class="num" type="button" value="4">
+        <input class="num" type="button" value="5">
+        <input class="num" type="button" value="6">
+        <input class="num" type="button" value="7">
+        <input class="num" type="button" value="8">
+        <input class="num" type="button" value="9">
+        <input class="num" type="button" value="+">
+        <input class="num" type="button" value="-">
+        <input class="num" type="button" value="X">
+        <input class="num" type="button" value="/">
+        <input class="num" type="button" value="=">
+    </div>
+</section>
+
+    <hr>
+    <section id="s2">
+        <h1>2. Dom 속성 다루기 : 계산기</h1>
+        <div>
+            <input class="x-input" type="text" value="0">
+            <input class="y-input" type="text" value="0">
+            <input class="button" type="button" value="덧셈">
+            <span>계산결과 : <span>0</span></span>
+        </div>
+    </section>
+
+    <hr>
+    <section id="s1">
+        <h1>1. 노드 선택방법</h1>
+        <div>
+            <input class="txtinput" type="text">
+            <input class="button" type="button" value="click">
+        </div>
+    </section>
+    <hr>
+    <input type="button" value="출력" id="btn-print">
+    
+</body>
+</html>

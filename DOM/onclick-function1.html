@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function printResult(){
+            var x = prompt('x = ');
+            var y = prompt('y = ');
+            x= parseInt(x);
+            y= parseInt(y);
+            btnPrint.alert(x+y);
+        }
+    </script>
+</head>
+<body>
+    <input type="button" value="출력" onclick="printResult();"id="btnPrint">
+    <div onclick="alert('클릭했구나 떙큐');">여기 한 번 클릭해봐</div>
+</body>
+</html>
